@@ -1,0 +1,1 @@
+Assets for blog here: https://outragedpinkracoon.wordpress.com/2016/11/08/es6-promises-for-human-beings/
