@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const readFile = (fileName, result) => {  
   return new Promise((resolve, reject) =>{
-    fs.readFile(fileName, function(err, data) {
+    fs.readFile(fileName, (err, data) => {
       if(err) return reject(err);
       resolve(result + data.toString());
     })
