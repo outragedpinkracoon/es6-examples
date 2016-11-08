@@ -1,7 +1,7 @@
 //read this http://www.datchley.name/es6-promises/
 const fs = require('fs');
 
-const readFile = function(fileName, result) {  
+const readFile = (fileName, result) => {  
   return new Promise((resolve, reject) =>{
     fs.readFile(fileName, function(err, data) {
       if(err) return reject(err);
