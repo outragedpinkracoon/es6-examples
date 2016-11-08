@@ -10,7 +10,7 @@ const readFile = (fileName) => {
 }
 
 const fileNames = ["1.txt", "2.txt", "3.txt"]
-promises = fileNames.map(readFile);
+const promises = fileNames.map(readFile);
 
 Promise.all(promises)  
   .then(function(results) {
