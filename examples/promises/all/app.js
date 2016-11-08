@@ -13,7 +13,7 @@ const fileNames = ["1.txt", "2.txt", "3.txt"]
 const promises = fileNames.map(readFile);
 
 Promise.all(promises)  
-  .then(function(results) {
+  .then((results) => {
     let data = 0;
     results.forEach((item) => {
       data += parseInt(item);
